@@ -1,4 +1,4 @@
-def main(a):
+def main(a = 6.453):
     '''Round the value of a to 2 decimal places and return it.
     
     Args:
@@ -9,4 +9,7 @@ def main(a):
     '''
     a = round(6.453,2)
     return a
+
 print(main())
+
+
