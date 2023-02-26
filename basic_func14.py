@@ -1,4 +1,4 @@
-def main(a, b):
+def main(a=11, b=2):
     '''find the floor division of a and b and return it.
     
     Args:
@@ -8,4 +8,8 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return 
+   
+    s = a // b
+
+    return s
+print(main()) 
