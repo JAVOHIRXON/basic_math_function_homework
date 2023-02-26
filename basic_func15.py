@@ -11,4 +11,4 @@ def main(a=23, b=5):
     s = a%b
     return s
 
-print(main())
+print(main()) 
